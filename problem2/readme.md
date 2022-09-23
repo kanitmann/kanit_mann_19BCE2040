@@ -1,3 +1,9 @@
+**Screenshots containing Solution**
+
+-   Screenshot Showing `GET` request sent in Insomnia
+    ![InsomniaSS](./Screenshot/InsomniaSS_Problem2.png)
+
+**Problem**
 Develop a HTTP microservice called prefix-management-service that exposes a GET REST API "/prefixes". This API receives a query parameter. This query param is called "keywords".
 
 http://localhost:port/prefixes?keywords=bonfire,bool
@@ -17,16 +23,16 @@ Response of above API call would be like this
 
 ```json
 [
-    {
-        "keyword": "bonfire",
-        "status": "found",
-        "prefix": "bonf"
-    },
-    {
-        "keyword": "bool",
-        "status": "not_found",
-        "prefix": "not_applicable"
-    }
+	{
+		"keyword": "bonfire",
+		"status": "found",
+		"prefix": "bonf"
+	},
+	{
+		"keyword": "bool",
+		"status": "not_found",
+		"prefix": "not_applicable"
+	}
 ]
 ```
 
@@ -40,16 +46,16 @@ Expected Output:
 
 ```json
 [
-    {
-        "keyword": "bonfire",
-        "status": "found",
-        "prefix": "bonf"
-    },
-    {
-        "keyword": "bonsai",
-        "status": "found",
-        "prefix": "bons"
-    }
+	{
+		"keyword": "bonfire",
+		"status": "found",
+		"prefix": "bonf"
+	},
+	{
+		"keyword": "bonsai",
+		"status": "found",
+		"prefix": "bons"
+	}
 ]
 ```
 
