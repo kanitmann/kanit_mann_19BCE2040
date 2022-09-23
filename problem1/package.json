@@ -1,0 +1,12 @@
+{
+  "name": "problem1",
+  "version": "1.0.0",
+  "description": "Solution to affordmed programming test",
+  "main": "app.js",
+  "author": "kanitmann",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1"
+  }
+}
