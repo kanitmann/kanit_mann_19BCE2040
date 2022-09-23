@@ -1,11 +1,12 @@
-**Screenshot**
+**Screenshots for solutions**
 
 -   Screenshot Showing `GET` request sent in Insomnia
     ![Insomnia GET](./screenshot/solution1.png)
 
--   Screenshot showing response time of query
+-   Screenshot showing `response time` of query
     ![Response](./screenshot/response_time.png)
-    **Question:**
+
+**Question:**
 
 Develop a HTTP microservice called number-management-service that exposes a GET REST API "/numbers". This API receives a list of URLs through query parameters. This query param is called "url". It can appear more than once, for example:
 
